@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{ae7ceb9c-3200-4f57-8110-55e4d3a26385}" version="1.1">
+  <LODS>
+    <LOD minSize="15.859375" ModelFile="ai lockheed c-130h wing_tanks_LOD0.gltf"/>
+    <LOD minSize="7.96875" ModelFile="ai lockheed c-130h wing_tanks_LOD1.gltf"/>
+    <LOD minSize="3.984375" ModelFile="ai lockheed c-130h wing_tanks_LOD2.gltf"/>
+    <LOD minSize="2.65625" ModelFile="ai lockheed c-130h wing_tanks_LOD3.gltf"/>
+    <LOD minSize="1.5625" ModelFile="ai lockheed c-130h wing_tanks_LOD4.gltf"/>
+    <LOD minSize="0.78125" ModelFile="ai lockheed c-130h wing_tanks_LOD5.gltf"/>
+    <LOD minSize="0.546875" ModelFile="ai lockheed c-130h wing_tanks_LOD6.gltf"/>
+    <LOD minSize="0.46875" ModelFile="ai lockheed c-130h wing_tanks_LOD7.gltf"/>
+    <LOD minSize="0.390625" ModelFile="ai lockheed c-130h wing_tanks_LOD8.gltf"/>
+    <LOD minSize="0.3125" ModelFile="ai lockheed c-130h wing_tanks_LOD9.gltf"/>
+  </LODS>
+</ModelInfo>

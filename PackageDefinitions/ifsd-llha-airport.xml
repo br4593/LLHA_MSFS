@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage ReleaseNotes="PackageDefinitions\ifsd-llha-airport\ReleaseNotes.xml" Version="0.1.6">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Haifa Airport</Title>
+		<Manufacturer>Israeli Flight Sim Developers</Manufacturer>
+		<Creator>Bar Rodoy and Niv Tesler</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\ifsd-llha-airport\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\ifsd-llha-airport\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="llhaobjects">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\airport-llha-haifa\ModelLibs\</AssetDir>
+			<OutputDir>scenery\global\scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="materials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\airport-llha-haifa\materials\</AssetDir>
+			<OutputDir>MaterialLibs\materials\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\airport-llha-haifa\sceneries\</AssetDir>
+			<OutputDir>scenery\world\scenery\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

@@ -1,0 +1,511 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    },
+    {
+      "name": "node2",
+      "mesh": 1
+    },
+    {
+      "name": "node3",
+      "mesh": 2
+    },
+    {
+      "name": "node4",
+      "mesh": 3
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "part000"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part001"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "part002"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "mode": 4,
+          "material": 3
+        }
+      ],
+      "name": "part003"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC3",
+      "min": [
+        0.0,
+        0.0,
+        -6.0
+      ],
+      "max": [
+        13.0,
+        2.5,
+        1.5919882599690904E-15
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 78,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 360,
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC3",
+      "min": [
+        0.0,
+        2.2000000476837158,
+        -6.0
+      ],
+      "max": [
+        13.0,
+        2.5,
+        1.5919882599690904E-15
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 360,
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 240,
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 312,
+      "componentType": 5125,
+      "count": 15,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 468,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC3",
+      "min": [
+        4.0,
+        1.0,
+        -4.2993597984313965
+      ],
+      "max": [
+        11.5,
+        3.873539924621582,
+        1.4082973068957338E-15
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 468,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 312,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 372,
+      "componentType": 5125,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 660,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC3",
+      "min": [
+        3.947160005569458,
+        2.2204999923706055,
+        -4.3433399200439453
+      ],
+      "max": [
+        6.0732598304748535,
+        3.873539924621582,
+        -0.11812999844551086
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 660,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 440,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 468,
+      "componentType": 5125,
+      "count": 294,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "material01",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "occlusionTexture": {
+        "index": 4
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "material02",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicRoughnessTexture": {
+          "index": 6
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normalTexture": {
+        "index": 7
+      },
+      "occlusionTexture": {
+        "index": 6
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "material03",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 8
+        },
+        "metallicRoughnessTexture": {
+          "index": 9
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normalTexture": {
+        "index": 10
+      },
+      "occlusionTexture": {
+        "index": 9
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "corrugated_iron_grey"
+    },
+    {
+      "source": 1,
+      "name": "corrugated_iron_grey_comp"
+    },
+    {
+      "source": 2,
+      "name": "corrugated_iron_grey_norm"
+    },
+    {
+      "source": 3,
+      "name": "lahak_signs_and_windows"
+    },
+    {
+      "source": 4,
+      "name": "lahak_signs_and_windows_comp"
+    },
+    {
+      "source": 5,
+      "name": "lahak_tiles"
+    },
+    {
+      "source": 6,
+      "name": "lahak_tiles_comp"
+    },
+    {
+      "source": 7,
+      "name": "lahak_tiles_norm"
+    },
+    {
+      "source": 8,
+      "name": "rusty_metal"
+    },
+    {
+      "source": 9,
+      "name": "rusty_metal_comp"
+    },
+    {
+      "source": 10,
+      "name": "rusty_metal_norm"
+    }
+  ],
+  "images": [
+    {
+      "uri": "corrugated_iron_grey.png"
+    },
+    {
+      "uri": "corrugated_iron_grey_comp.png"
+    },
+    {
+      "uri": "corrugated_iron_grey_norm.png"
+    },
+    {
+      "uri": "lahak_signs_and_windows.png"
+    },
+    {
+      "uri": "lahak_signs_and_windows_comp.png"
+    },
+    {
+      "uri": "lahak_tiles.png"
+    },
+    {
+      "uri": "lahak_tiles_comp.png"
+    },
+    {
+      "uri": "lahak_tiles_norm.png"
+    },
+    {
+      "uri": "rusty_metal.png"
+    },
+    {
+      "uri": "rusty_metal_comp.png"
+    },
+    {
+      "uri": "rusty_metal_norm.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1644
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1644,
+      "byteLength": 2460,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4104,
+      "byteLength": 2460,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6564,
+      "byteLength": 1640,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8204,
+      "uri": "Lahak1.bin"
+    }
+  ]
+}

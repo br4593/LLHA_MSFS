@@ -1,0 +1,341 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    },
+    {
+      "name": "node2",
+      "mesh": 1
+    },
+    {
+      "name": "node3",
+      "mesh": 2
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "part000"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part001"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "part002"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5002,
+      "type": "VEC3",
+      "min": [
+        -2.0799400806427,
+        -1.9878100156784058,
+        -12.054269790649414
+      ],
+      "max": [
+        2.1934700012207031,
+        3.6742300987243652,
+        17.755500793457031
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5002,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5002,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 12825,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 60024,
+      "componentType": 5126,
+      "count": 1999,
+      "type": "VEC3",
+      "min": [
+        -8.1609096527099609,
+        -1.3299299478530884,
+        -10.59375
+      ],
+      "max": [
+        8.2756996154785156,
+        2.1297600269317627,
+        5.5289998054504395
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 60024,
+      "componentType": 5126,
+      "count": 1999,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 40016,
+      "componentType": 5126,
+      "count": 1999,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 51300,
+      "componentType": 5125,
+      "count": 4149,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 84012,
+      "componentType": 5126,
+      "count": 11084,
+      "type": "VEC3",
+      "min": [
+        -19.821800231933594,
+        -2.2324199676513672,
+        -9.0183601379394531
+      ],
+      "max": [
+        19.938999176025391,
+        9.5770998001098633,
+        17.000400543212891
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 84012,
+      "componentType": 5126,
+      "count": 11084,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 56008,
+      "componentType": 5126,
+      "count": 11084,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 67896,
+      "componentType": 5125,
+      "count": 24246,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Glass.003",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.67326796054840088,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "doubleSided": true,
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "Main.003",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.67326796054840088,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "doubleSided": true,
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "Material.004",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.67326796054840088,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 2
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "doubleSided": true,
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "karnaf_1"
+    },
+    {
+      "source": 1,
+      "name": "karnaf_3"
+    },
+    {
+      "source": 2,
+      "name": "karnaf_2"
+    }
+  ],
+  "images": [
+    {
+      "uri": "karnaf_1.png"
+    },
+    {
+      "uri": "karnaf_3.png"
+    },
+    {
+      "uri": "karnaf_2.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 164880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 164880,
+      "byteLength": 217020,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 381900,
+      "byteLength": 217020,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 598920,
+      "byteLength": 144680,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 743600,
+      "uri": "Karnaf.bin"
+    }
+  ]
+}
